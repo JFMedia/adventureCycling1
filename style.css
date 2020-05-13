@@ -1,0 +1,164 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/* @medi(max-width: 568px) {
+
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+        background-attachment: scroll;
+    }
+} */
+
+.pimg1 {
+  min-height: 100%;
+  background-image: url("./images/photo-of-purple-mountain-bike-drifting-733740.jpg");
+}
+
+.pimg2 {
+  min-height: 100%;
+  background-image: url("./images/mikkel-bech-yjAFnkLtKY0-unsplash.jpg");
+}
+
+.pimg3 {
+  min-height: 100%;
+  background-image: url("./images/patrick-hendry-1ow9zrlldJU-unsplash-resized.jpg");
+}
+
+.pimg3 .ptext {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+  background-attachment: fixed;
+  will-change: transform;
+}
+
+.collapse {
+  transform: translateY(-30px);
+}
+
+.nav-link {
+  color: rgb(201, 201, 201) !important;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 40px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 4rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.dropship-and-collect {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid grey;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.dropship-and-collect a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.dropship-and-collect a:hover {
+  background-color: black;
+  color: white;
+}
+
+.find-bikes p {
+  font-size: 0.7rem;
+}
+
+.find-bikes .dropship-and-collect {
+  border-bottom: none;
+}
+
+.new-arrivals {
+  margin-top: 100px;
+}
+
+.new-arrivals-img-des {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.new-arrivals-img-des img {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 70px;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  transition: 0.2s ease;
+  font-size: 0.8rem;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
