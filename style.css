@@ -59,6 +59,11 @@ html {
   transform: translateY(-30px);
 }
 
+.navbar-toggler {
+  margin-right: 10px;
+  margin-bottom: 80px;
+}
+
 .nav-link {
   color: rgb(201, 201, 201) !important;
   text-transform: uppercase;
@@ -91,6 +96,10 @@ html {
   text-transform: uppercase;
   line-height: normal;
   font-weight: 300;
+}
+
+.hero-quote {
+  transform: translateY(-100px);
 }
 
 .dropship-and-collect {
