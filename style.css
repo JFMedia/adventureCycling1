@@ -171,3 +171,43 @@ html {
   color: white;
   text-decoration: none;
 }
+
+/* Media queries for New Arrivals Section */
+
+@media (max-width: 550px) {
+  .new-arrivals-img-1 {
+    grid-area: image1;
+  }
+
+  .new-arrivals-img-2 {
+    grid-area: image2;
+  }
+
+  .new-arrivals-img-3 {
+    grid-area: image3;
+  }
+
+  .new-arrivals-desc-1 {
+    grid-area: desc1;
+  }
+
+  .new-arrivals-desc-2 {
+    grid-area: desc2;
+  }
+
+  .new-arrivals-desc-3 {
+    grid-area: desc3;
+  }
+
+  .new-arrivals-img-des {
+    display: grid;
+    grid-template-areas:
+      'image1'
+      'desc1'
+      'image2'
+      'desc2'
+      'image3'
+      'desc3';
+    grid-template-columns: 1fr;
+  }
+}
